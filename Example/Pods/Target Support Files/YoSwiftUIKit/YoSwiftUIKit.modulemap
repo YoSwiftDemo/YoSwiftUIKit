@@ -1,0 +1,6 @@
+framework module YoSwiftUIKit {
+  umbrella header "YoSwiftUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* YoSwiftUIKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoSwiftUIKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6613D0DDDED8EBC916F05E44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		711015F5F69AC781DC60E32F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6613D0DDDED8EBC916F05E44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		711015F5F69AC781DC60E32F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C5150976451C3FB3A3BA8A64 /* Pods-YoSwiftUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoSwiftUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YoSwiftUIKit_Tests/Pods-YoSwiftUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD813247534551CA27516A52 /* YoSwiftUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YoSwiftUIKit.podspec; path = ../YoSwiftUIKit.podspec; sourceTree = "<group>"; };
+		CD813247534551CA27516A52 /* YoSwiftUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YoSwiftUIKit.podspec; path = ../YoSwiftUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF9158A3A63A08F3C7EC3D6A /* Pods-YoSwiftUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoSwiftUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YoSwiftUIKit_Example/Pods-YoSwiftUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F07C0EBD201B712C53AA4F69 /* Pods_YoSwiftUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoSwiftUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5E63525F6A0231E2AE5CF5 /* Pods-YoSwiftUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoSwiftUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-YoSwiftUIKit_Example/Pods-YoSwiftUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				C5150976451C3FB3A3BA8A64 /* Pods-YoSwiftUIKit_Tests.debug.xcconfig */,
 				28B8B47B91C5B72C89A1DE6F /* Pods-YoSwiftUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				82E5368C9BEA32CF962DF830 /* [CP] Embed Pods Frameworks */,
+				370A9D0DA6AE8D2ED9416388 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Y2V4DQAG79;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,7 +285,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82E5368C9BEA32CF962DF830 /* [CP] Embed Pods Frameworks */ = {
+		370A9D0DA6AE8D2ED9416388 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -478,6 +479,7 @@
 			baseConfigurationReference = CF9158A3A63A08F3C7EC3D6A /* Pods-YoSwiftUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2V4DQAG79;
 				INFOPLIST_FILE = YoSwiftUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = FF5E63525F6A0231E2AE5CF5 /* Pods-YoSwiftUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2V4DQAG79;
 				INFOPLIST_FILE = YoSwiftUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

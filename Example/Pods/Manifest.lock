@@ -1,0 +1,20 @@
+PODS:
+  - YoSwiftUIKit (0.1.0):
+    - "YoSwiftUIKit/YoUIColor+Normal (= 0.1.0)"
+  - "YoSwiftUIKit/YoUIColor+HexColor (0.1.0)"
+  - "YoSwiftUIKit/YoUIColor+Normal (0.1.0)":
+    - "YoSwiftUIKit/YoUIColor+HexColor"
+
+DEPENDENCIES:
+  - YoSwiftUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  YoSwiftUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoSwiftUIKit: 9a760b14efff8c363499c355a707d1a02320f5f1
+
+PODFILE CHECKSUM: 7b112ff8127d472163c42829c5df2e523202bf3c
+
+COCOAPODS: 1.11.2
