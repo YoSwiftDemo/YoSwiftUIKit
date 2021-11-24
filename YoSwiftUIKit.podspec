@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 项目名
 s.name             = 'YoSwiftUIKit'
 # 版本号
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 # 简单描述
 s.summary          = 'Yo UIView of swift'
 # 详细描述
@@ -75,26 +75,6 @@ s.subspec 'YoUIImage+Color'  do |ss|
 ss.source_files = 'YoSwiftUIKit/Classes/YoUIImage/YoUIImage+Color/**/*'
 #ss.dependency 'YoCommon/Configure'
 end
-
-#  HUD
-
-#s.subspec 'YoProgressHUD' do |ss|
-#ss.source_files = 'YoUIKit/Classes/HUD/YoProgressHUD/**/*'
-#s.dependency 'Shimmer', '~> 1.0.2'
-# 资源文件
-# s.resources = ['YoUIKit/Assets/HUD/*.bundle']
-# s.resources = ['YoUIKit/Assets/HUD/*']
-# s.resource_bundles = {
- # 'YoUIKit' => ['YoUIKit/Assets/YoProgressHUD/*.png']
-# }
-
-# s.source_files  = "YoUIKit", "YoUIKit/**/*.{h,m}"
-# s.resource_bundles = {
-#   'SYBaseKit' => ['SYBaseKit/Assets/*.png']
-# }
-
-#  s.public_header_files = 'Pod/Classes/**/*.h'
-#  s.frameworks = 'UIKit', 'Foundation'
 end
 
 
