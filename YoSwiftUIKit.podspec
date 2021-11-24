@@ -24,7 +24,7 @@ s.source           = { :git => 'https://github.com/YoSwiftKing/YoSwiftUIKit.git'
 s.ios.deployment_target = '9.0'
 
 # 子模块引用 https://www.jianshu.com/p/951952f3be7a
-s.default_subspec = 'YoUIColor+Normal'
+# s.default_subspec = 'YoUIColor+Normal'
 #  分页标签view
 s.subspec 'YoPageTagsView'  do |ss|
 ss.source_files = 'YoSwiftUIKit/Classes/YoUIView/YoPageTagsView/**/*'

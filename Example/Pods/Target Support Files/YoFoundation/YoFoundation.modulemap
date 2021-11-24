@@ -1,0 +1,6 @@
+framework module YoFoundation {
+  umbrella header "YoFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

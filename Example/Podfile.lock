@@ -1,19 +1,42 @@
 PODS:
-  - YoSwiftUIKit (0.1.0):
-    - "YoSwiftUIKit/YoUIColor+Normal (= 0.1.0)"
-  - "YoSwiftUIKit/YoUIColor+HexColor (0.1.0)"
-  - "YoSwiftUIKit/YoUIColor+Normal (0.1.0)":
+  - "YoFoundation/YoString+Size (0.1.2)"
+  - YoSwiftUIKit (0.1.1):
+    - YoSwiftUIKit/YoPageTagsView (= 0.1.1)
+    - YoSwiftUIKit/YoPageView (= 0.1.1)
+    - "YoSwiftUIKit/YoUIColor+HexColor (= 0.1.1)"
+    - "YoSwiftUIKit/YoUIColor+Normal (= 0.1.1)"
+    - "YoSwiftUIKit/YoUIColor+Rgb (= 0.1.1)"
+    - "YoSwiftUIKit/YoUIImage+Color (= 0.1.1)"
+    - "YoSwiftUIKit/YoUIView+Gradient (= 0.1.1)"
+    - "YoSwiftUIKit/YoUIView+Layout (= 0.1.1)"
+  - YoSwiftUIKit/YoPageTagsView (0.1.1):
+    - "YoFoundation/YoString+Size"
+    - "YoSwiftUIKit/YoUIImage+Color"
+  - YoSwiftUIKit/YoPageView (0.1.1):
+    - "YoSwiftUIKit/YoUIColor+Rgb"
+    - "YoSwiftUIKit/YoUIView+Layout"
+  - "YoSwiftUIKit/YoUIColor+HexColor (0.1.1)"
+  - "YoSwiftUIKit/YoUIColor+Normal (0.1.1)":
     - "YoSwiftUIKit/YoUIColor+HexColor"
+  - "YoSwiftUIKit/YoUIColor+Rgb (0.1.1)"
+  - "YoSwiftUIKit/YoUIImage+Color (0.1.1)"
+  - "YoSwiftUIKit/YoUIView+Gradient (0.1.1)"
+  - "YoSwiftUIKit/YoUIView+Layout (0.1.1)"
 
 DEPENDENCIES:
   - YoSwiftUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YoFoundation
 
 EXTERNAL SOURCES:
   YoSwiftUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YoSwiftUIKit: 9a760b14efff8c363499c355a707d1a02320f5f1
+  YoFoundation: 3fb495ffc4ee7353de6f5930b301c5024311bec2
+  YoSwiftUIKit: c033602a92a7a249e03d04f5a2a16d860d4db7c4
 
 PODFILE CHECKSUM: 7b112ff8127d472163c42829c5df2e523202bf3c
 

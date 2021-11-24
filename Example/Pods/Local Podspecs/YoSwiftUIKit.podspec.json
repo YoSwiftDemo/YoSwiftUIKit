@@ -1,6 +1,6 @@
 {
   "name": "YoSwiftUIKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Yo UIView of swift",
   "description": "自定义视图+扩展",
   "homepage": "https://github.com/YoSwiftKing/YoSwiftUIKit",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/YoSwiftKing/YoSwiftUIKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "default_subspecs": "YoUIColor+Normal",
   "subspecs": [
     {
       "name": "YoPageTagsView",
