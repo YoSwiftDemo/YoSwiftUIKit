@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 项目名
 s.name             = 'YoSwiftUIKit'
 # 版本号
-s.version          = '0.1.2'
+s.version          = '0.1.3'
 # 简单描述
 s.summary          = 'Yo UIView of swift'
 # 详细描述
@@ -24,12 +24,12 @@ s.source           = { :git => 'https://github.com/YoSwiftKing/YoSwiftUIKit.git'
 s.ios.deployment_target = '9.0'
 
 # 子模块引用 https://www.jianshu.com/p/951952f3be7a
-# s.default_subspec = 'YoUIColor+Normal'
+s.default_subspec = 'YoUIColor+Normal'
 #  分页标签view
 s.subspec 'YoPageTagsView'  do |ss|
 ss.source_files = 'YoSwiftUIKit/Classes/YoUIView/YoPageTagsView/**/*'
 ss.dependency 'YoSwiftUIKit/YoUIImage+Color'
-#ss.dependency 'YoSwiftUIKit/YoPageView'
+ss.dependency 'YoSwiftUIKit/YoPageView'
 ss.dependency 'YoFoundation/YoString+Size' #, '~> 1.0.2'
 end
 
