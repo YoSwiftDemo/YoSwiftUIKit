@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 项目名
 s.name             = 'YoSwiftUIKit'
 # 版本号
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 # 简单描述
 s.summary          = 'Yo UIView of swift'
 # 详细描述
