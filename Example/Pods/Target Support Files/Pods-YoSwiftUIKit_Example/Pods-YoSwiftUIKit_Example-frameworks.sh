@@ -176,10 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YoCommon/YoCommon.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YoFoundation/YoFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YoSwiftUIKit/YoSwiftUIKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YoCommon/YoCommon.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YoFoundation/YoFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YoSwiftUIKit/YoSwiftUIKit.framework"
 fi

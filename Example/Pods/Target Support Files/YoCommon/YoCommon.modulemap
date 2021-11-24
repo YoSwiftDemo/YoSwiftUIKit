@@ -1,0 +1,6 @@
+framework module YoCommon {
+  umbrella header "YoCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

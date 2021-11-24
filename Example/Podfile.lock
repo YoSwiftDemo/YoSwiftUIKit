@@ -1,33 +1,69 @@
 PODS:
+  - SnapKit (4.2.0)
+  - YoCommon (0.1.1):
+    - YoCommon/Configure (= 0.1.1)
+    - YoCommon/Define (= 0.1.1)
+  - YoCommon/Configure (0.1.1)
+  - YoCommon/Define (0.1.1)
   - "YoFoundation/YoString+Size (0.1.2)"
-  - YoSwiftUIKit (0.1.1):
-    - YoSwiftUIKit/YoPageTagsView (= 0.1.1)
-    - YoSwiftUIKit/YoPageView (= 0.1.1)
-    - "YoSwiftUIKit/YoUIColor+HexColor (= 0.1.1)"
-    - "YoSwiftUIKit/YoUIColor+Normal (= 0.1.1)"
-    - "YoSwiftUIKit/YoUIColor+Rgb (= 0.1.1)"
-    - "YoSwiftUIKit/YoUIImage+Color (= 0.1.1)"
-    - "YoSwiftUIKit/YoUIView+Gradient (= 0.1.1)"
-    - "YoSwiftUIKit/YoUIView+Layout (= 0.1.1)"
-  - YoSwiftUIKit/YoPageTagsView (0.1.1):
+  - YoSwiftUIKit (0.1.3):
+    - SnapKit
+    - YoCommon
+    - YoSwiftUIKit/YoNavBarView (= 0.1.3)
+    - YoSwiftUIKit/YoPageTagsView (= 0.1.3)
+    - YoSwiftUIKit/YoPageView (= 0.1.3)
+    - "YoSwiftUIKit/YoUIColor+HexColor (= 0.1.3)"
+    - "YoSwiftUIKit/YoUIColor+Normal (= 0.1.3)"
+    - "YoSwiftUIKit/YoUIColor+Rgb (= 0.1.3)"
+    - "YoSwiftUIKit/YoUIImage+Color (= 0.1.3)"
+    - "YoSwiftUIKit/YoUIView+Gradient (= 0.1.3)"
+    - "YoSwiftUIKit/YoUIView+Layout (= 0.1.3)"
+    - YoSwiftUIKit/YoViewCtl (= 0.1.3)
+  - YoSwiftUIKit/YoNavBarView (0.1.3):
+    - SnapKit
+    - YoCommon
+  - YoSwiftUIKit/YoPageTagsView (0.1.3):
+    - SnapKit
+    - YoCommon
     - "YoFoundation/YoString+Size"
+    - YoSwiftUIKit/YoPageView
     - "YoSwiftUIKit/YoUIImage+Color"
-  - YoSwiftUIKit/YoPageView (0.1.1):
+  - YoSwiftUIKit/YoPageView (0.1.3):
+    - SnapKit
+    - YoCommon
     - "YoSwiftUIKit/YoUIColor+Rgb"
     - "YoSwiftUIKit/YoUIView+Layout"
-  - "YoSwiftUIKit/YoUIColor+HexColor (0.1.1)"
-  - "YoSwiftUIKit/YoUIColor+Normal (0.1.1)":
+  - "YoSwiftUIKit/YoUIColor+HexColor (0.1.3)":
+    - SnapKit
+    - YoCommon
+  - "YoSwiftUIKit/YoUIColor+Normal (0.1.3)":
+    - SnapKit
+    - YoCommon
     - "YoSwiftUIKit/YoUIColor+HexColor"
-  - "YoSwiftUIKit/YoUIColor+Rgb (0.1.1)"
-  - "YoSwiftUIKit/YoUIImage+Color (0.1.1)"
-  - "YoSwiftUIKit/YoUIView+Gradient (0.1.1)"
-  - "YoSwiftUIKit/YoUIView+Layout (0.1.1)"
+  - "YoSwiftUIKit/YoUIColor+Rgb (0.1.3)":
+    - SnapKit
+    - YoCommon
+  - "YoSwiftUIKit/YoUIImage+Color (0.1.3)":
+    - SnapKit
+    - YoCommon
+  - "YoSwiftUIKit/YoUIView+Gradient (0.1.3)":
+    - SnapKit
+    - YoCommon
+  - "YoSwiftUIKit/YoUIView+Layout (0.1.3)":
+    - SnapKit
+    - YoCommon
+  - YoSwiftUIKit/YoViewCtl (0.1.3):
+    - SnapKit
+    - YoCommon
+    - YoSwiftUIKit/YoNavBarView
 
 DEPENDENCIES:
   - YoSwiftUIKit (from `../`)
 
 SPEC REPOS:
   trunk:
+    - SnapKit
+    - YoCommon
     - YoFoundation
 
 EXTERNAL SOURCES:
@@ -35,8 +71,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YoCommon: 7027e6dff473ac9b7a56501a651b081a6b62c4d2
   YoFoundation: 3fb495ffc4ee7353de6f5930b301c5024311bec2
-  YoSwiftUIKit: c033602a92a7a249e03d04f5a2a16d860d4db7c4
+  YoSwiftUIKit: b6a384f4872b3d8bd6e3adabc800303dd605e6fc
 
 PODFILE CHECKSUM: 7b112ff8127d472163c42829c5df2e523202bf3c
 

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 项目名
 s.name             = 'YoSwiftUIKit'
 # 版本号
-s.version          = '0.1.3'
+s.version          = '0.1.4'
 # 简单描述
 s.summary          = 'Yo UIView of swift'
 # 详细描述
@@ -25,6 +25,11 @@ s.ios.deployment_target = '9.0'
 
 # 子模块引用 https://www.jianshu.com/p/951952f3be7a
 s.default_subspec = 'YoUIColor+Normal'
+# YoUIImage - color扩展
+s.subspec 'YoNavBarView'  do |ss|
+ss.source_files = 'YoSwiftUIKit/Classes/YoUIView/YoNavBarView/**/*'
+#ss.dependency 'YoCommon/Configure'
+end
 #  分页标签view
 s.subspec 'YoPageTagsView'  do |ss|
 ss.source_files = 'YoSwiftUIKit/Classes/YoUIView/YoPageTagsView/**/*'
@@ -74,6 +79,13 @@ end
 s.subspec 'YoUIImage+Color'  do |ss|
 ss.source_files = 'YoSwiftUIKit/Classes/YoUIImage/YoUIImage+Color/**/*'
 #ss.dependency 'YoCommon/Configure'
+end
+# YoViewCtl
+s.subspec 'YoViewCtl'  do |ss|
+ss.source_files = 'YoSwiftUIKit/Classes/YoViewCtl/**/*'
+ss.dependency 'YoSwiftUIKit/YoNavBarView'
+s.dependency 'SnapKit'
+s.dependency 'YoCommon'
 end
 end
 
